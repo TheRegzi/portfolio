@@ -3,4 +3,32 @@ h2 {
     color: #000000;
     text-align: center;
     margin: 1.5em;
+    font-size: 1.7em;
+}
+
+.about-text,
+.about-text a {
+    width: 80%;
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    font-size: 1em;
+    color: #000000;
+}
+    
+h3 {
+    
+}
+
+@media (min-width: 600px) {
+    .about-text {
+        background-color: #ffffff;
+        border-radius: 40px;
+        margin-bottom: 3em;
+        width: 90%;
+        margin: auto 3em 0;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
