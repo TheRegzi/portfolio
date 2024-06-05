@@ -1,0 +1,192 @@
+.logo {
+    width: 70px;
+    padding: 1em;
+}
+
+body {
+    background-color: #CECFC8;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+header,
+footer {
+    background-color: #CC9683;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+    height: 95px;
+}
+
+#hamburger-content a {
+    padding-left: 1.5em;
+}
+
+.hamburger-menu button {
+    font-size: 40px;
+    height: 100%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.hamburger-menu a {
+    display: block;
+    padding: 0.6em;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    position: absolute;
+    background-color: #CC9683;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    left: 0;
+    top: 80px;
+    width: 100%;
+    margin: 0em;
+    padding: 3em 0em;
+    z-index: 100;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/354268112_7028665430481261_6403672487952000621_n-bigger.png);
+    margin-top: 0;
+    background-size: cover;
+    background-position: left;
+    background-position-y: top;
+    height: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner-text {
+    padding-top: 8em;
+}
+
+.banner h1 {
+    font-family: 'Karla', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.banner p {
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner a {
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #CC9683;
+    padding: 0.5em 1.5em;
+    border-radius: 9px;
+    color: #000000;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.about-me-btn {
+    margin-top: 2.5em;
+}
+
+footer {
+    padding: 5em 3em;
+}
+
+footer h4 {
+    margin: 0 0 2em 0;
+    font-size: 1em;
+    color: #000000;
+}
+
+footer a,
+footer p {
+    color: #000000;
+    margin: 0;
+}
+
+
+@media (min-width: 500px) {
+
+    .hamburger-menu button {
+        display: none;
+    }
+    
+    .hamburger-menu a {
+        display: block;
+        font-size: 1.2em;
+    }
+
+    #hamburger-content {
+        display: flex;  
+        flex-direction: row;  
+        justify-content: center;
+        align-items: center;
+        width: 100%;  
+        box-shadow: none;  
+        position: static;  
+        padding: 1em 0;  
+        gap: 2em;
+        margin: 0 auto;
+    }
+
+    #hamburger-content a {
+        display: block;
+        padding-right: 2em;
+    }
+    
+    .hidden {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1.2em 2em 0 0;
+        gap: 2.5em;
+    }
+    
+    .visible {
+        display: none;
+        padding: 0;
+    }
+
+    #extra-padding {
+        
+    }
+
+    footer {
+        padding: 5em 7em;
+    }
+
+
+}
+
+@media (min-width: 950px) {
+
+    .logo {
+        padding-left: 2em;
+    }
+}

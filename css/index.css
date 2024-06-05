@@ -1,0 +1,72 @@
+.website-img {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Karla', Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    text-align: center;
+    margin: 1.5em;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card {
+    background-color: #CCACA9;
+    width: 80%;
+    border-radius: 29px;
+    padding: 1em;
+    max-height: 600px;
+}
+
+.project-card h3 {
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.project-card p {
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+}
+
+.card-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.project-card a {
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-weight: 600;
+}
+
+.fa-solid.fa-x {
+    font-size: 1.5em;
+}
+
+@media (min-width: 1070px) {
+    .cards {
+        flex-direction: row;
+        margin: 2em;
+    }
+    
+    .project-card {
+        background-color: #CCACA9;
+        border-radius: 29px;
+        padding: 1em;
+        height: 410px;
+        width: 410px;
+    }
+    
+}
