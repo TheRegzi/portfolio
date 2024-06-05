@@ -174,3 +174,10 @@ footer p {
         padding-left: 2em;
     }
 }
+
+@media (min-width: 1250px) {
+
+    footer div {
+        padding-left: 10.5em;
+    }
+}
