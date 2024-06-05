@@ -23,7 +23,7 @@ h2 {
     width: 80%;
     border-radius: 29px;
     padding: 1em;
-    max-height: 600px;
+    max-height: 700px;
 }
 
 .project-card h3 {
@@ -62,11 +62,39 @@ h2 {
     }
     
     .project-card {
-        background-color: #CCACA9;
-        border-radius: 29px;
         padding: 1em;
-        height: 410px;
+        height: 530px;
         width: 410px;
     }
     
+    .project-card p {
+        font-size: 1em;
+    }
+
+    .card-space {
+        height: 260px;
+    }
+
+}
+
+@media (min-width: 1160px) {
+    .project-card {
+        height: 520px;
+    }
+
+    .card-space {
+        height: 230px;
+    }
+
+}
+
+@media (min-width: 1250px) {
+    .project-card {
+        height: 515px;
+    }
+
+    .card-space {
+        height: 200px;
+    }
+
 }
