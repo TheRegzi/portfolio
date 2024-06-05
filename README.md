@@ -12,5 +12,8 @@ This portfolio page is designed to present my projects and accomplishments in a 
 - **CSS**: For styling and layout of the web pages.
 - **JavaScript**: For interactive elements and functionality.
 
+## Contact
+[My LinkedIn Page](https://www.linkedin.com/in/regine-dille-kornbakk-aa0a7b288/)
+
 ## Website link:
 https://portfolio-rdk.netlify.app/
