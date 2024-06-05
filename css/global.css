@@ -1,6 +1,15 @@
 .logo {
     width: 70px;
-    padding: 1em;
+    padding-left: 1em;
+    text-align: center;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; 
+    margin: 0; 
 }
 
 body {
@@ -48,7 +57,6 @@ header {
 
 .hamburger-menu a {
     display: block;
-    padding: 0.6em;
     text-decoration: none;
     color: white;
     font-weight: 500;
@@ -65,14 +73,12 @@ header {
     background-color: #CC9683;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     left: 0;
-    top: 80px;
+    top: 94px;
     width: 100%;
     margin: 0em;
     padding: 3em 0;
     z-index: 100;
 }
-
-
 
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/354268112_7028665430481261_6403672487952000621_n-bigger.png);
@@ -132,7 +138,6 @@ footer p {
     margin: 0;
 }
 
-
 @media (min-width: 500px) {
 
     .hamburger-menu button {
@@ -158,13 +163,12 @@ footer p {
 
     #hamburger-content a {
         display: block;
-        padding-right: 4.5em;
+        padding-right: 3.5em;
     }
 
     footer {
         padding: 5em 7em;
     }
-
 
 }
 
