@@ -46,7 +46,7 @@ p {
 
 @media (min-width: 465px) {
 
-        .portrait {
+    .portrait {
         width: 97%;
         object-position: center;
     }
@@ -55,14 +55,8 @@ p {
 
 @media (min-width: 850px) {
     .about-text {
-        background-color: #ffffff;
-        border-radius: 40px;
         width: 700px;
-        margin: 0 auto;
-        margin-bottom: 3em;
         padding: 1em 2em 3em;
-        display: flex;
-        flex-direction: column;
     }
 
     p {
