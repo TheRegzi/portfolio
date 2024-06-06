@@ -37,7 +37,7 @@ h2 {
 
 .project-card p {
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .card-links {
@@ -67,10 +67,6 @@ h2 {
         padding: 1em;
         height: 530px;
         width: 410px;
-    }
-    
-    .project-card p {
-        font-size: 1em;
     }
 
     .card-space {
