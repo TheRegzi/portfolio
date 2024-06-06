@@ -2,7 +2,7 @@
 
 Welcome to my portfolio page! This is a showcase of my work as a front-end developer, featuring a collection of projects that highlight my skills and experiences in web development.
 
-## About the Portfolio
+## Description
 
 This portfolio page is designed to present my projects and accomplishments in a clear and engaging manner. It is intended to demonstrate my abilities in HTML, CSS, and JavaScript, and to provide a platform where potential employers or collaborators can view my work.
 
